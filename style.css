@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;400;600&family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+  background: #092532;
+  color: #204051;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+p {
+  /*margin-bottom: 2em;*/
+  margin-block-end: 2em;
+}
+
+h1 {
+  color:#204051;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 24px;
+  font-weight: regular;
+}
+
+h2 {
+  color:#3b6978;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+h3 {
+  color:#3b6978;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: regular;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+  color: #84a9ac;
+}
+
+a:hover {
+  color: #3b6978;
+  transition: color .2s;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.card-basic {
+  background-color: rgb(230,230,230);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 1%;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-green{
+  background-color: #06623b;
+  color: white;
+  padding: 7px 20px;
+  /*margin:100px 100px;*/
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 25px;
+  color: #84a9ac;
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
